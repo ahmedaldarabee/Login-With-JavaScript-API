@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: linear-gradient(45deg , #CAF5FE , #68E1FD , #333);
+    min-height: 100vh;
+}
+
+.center-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-section {
+    width: 270px;
+    margin: 0px auto;
+    padding: 10px;
+    flex-direction: column;
+    background: linear-gradient(45deg,#38BDF8,#0e0101);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    scale: 1.1;
+}
+.register-section .logo p {
+    color: white;
+}
+
+.register-section .logo img {
+    padding-left: 30px;
+}
+.register-section .data-inputs {
+    text-align: center;
+}
+
+.register-section .data-inputs input {
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.register-section .data-inputs button {
+    width: 90%;
+    margin: 5px 10px;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    transition: all 0.4s ease;
+    text-transform: capitalize;
+}
+
+.register-section .data-inputs input:focus,
+.register-section .data-inputs button:hover {
+    outline: 1px solid black;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
